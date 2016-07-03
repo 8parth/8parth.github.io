@@ -1,6 +1,7 @@
 $('body').scrollspy({
   target: '#navigation'
 });
+
 /* for smooth scrolling effect */
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
