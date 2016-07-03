@@ -1,3 +1,23 @@
+/* back to top styling */
+a.back-to-top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* custom font color */
+.custom-font-color{
+  color: #5CCAC6;
+}
+
 /* project image */
 .project-image{
   height: 300px;
@@ -10,7 +30,7 @@
 
 /* add padding to body */
 body{
-/*   padding-top: 70px; */
+  padding-top: 70px;
   background-color: lightgray;
   align: center;
 }
