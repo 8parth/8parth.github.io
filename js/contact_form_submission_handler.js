@@ -1,7 +1,8 @@
 
 function validEmail(email) { // see:
   var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
-  return re.test(email);
+  //return re.test(email);
+  return true
 }
 // get all data in form and return object
 function getFormData() {
@@ -25,6 +26,7 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
   event.preventDefault();           // we are submitting via xhr below
   var data = getFormData();         // get the values submitted in the form
   if( !validEmail(data.email) ) {   // if email is not valid show error
+
     document.getElementById('email-invalid').style.display = 'block';
     return false;
   } else {
