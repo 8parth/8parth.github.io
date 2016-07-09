@@ -1,3 +1,10 @@
+/**/
+.pull-bottom {
+    display: inline-block;
+    vertical-align: bottom;
+    float: none;
+}
+
 /* back to top styling */
 a.back-to-top {
 	display: none;
@@ -33,7 +40,25 @@ body{
   padding-top: 70px;
   background-color: lightgray;
   align: center;
+  font-family: 'Lato', sans-serif;
 }
+h1, h2, h4 {
+  font-family: 'Roboto', sans-serif;
+}
+.main-heading-line {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 45px;
+}
+p, span {
+  font-size: 16px;
+}
+.contact-me-text {
+  font-family: 'lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
 /* about me */
 .about-me {
   height:300px;
