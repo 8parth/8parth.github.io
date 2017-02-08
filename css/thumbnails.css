@@ -1,0 +1,16 @@
+.thumbnail {
+  display: block;
+  padding: 5px;
+  background-color: lightgray;
+  border: 0;
+}
+
+.caption {
+    padding: 5px;
+    /*color: @thumbnail-caption-color;*/
+}
+.project-images {
+  height: 200px; 
+  width: 100%; 
+  display: block;
+}

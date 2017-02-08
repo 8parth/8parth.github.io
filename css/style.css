@@ -25,17 +25,33 @@ a.back-to-top {
   color: #5CCAC6;
 }
 
-/* project image */
-.project-image{
-  height: 300px;
+.center-element {
+  text-align: center;
 }
+
+/* project image */
+/*.project-image{
+  height: 300px;
+}*/
 /* modify button */
 .button-large {
   color:#f0f5f6;
   background-color: #5CCAC6;
 }
-a:hover, a:focus {
-  font-color: #c4f6f3;
+
+.button-style {
+  color:#f0f5f6;
+  background-color: #5CCAC6;
+}
+
+.button-style-plain {
+  color:#f0f5f6;
+  background-color: grey; 
+}
+
+.button-style > a:hover, 
+.button-style > a:focus {
+  font-color: red;
 }
 
 /* add padding to body */
@@ -49,7 +65,7 @@ h1, h2, h4 {
 }
 .main-heading-line {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   color: #f0f5f6;
   z-index: 2;
   bottom: initial;
@@ -59,7 +75,7 @@ h1, h2, h4 {
 }
 .sub-heading-line {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 30px;
   color: #f0f5f6; 
 }
