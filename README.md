@@ -1,2 +1,2 @@
-# 8parth.github.io
+# parthrmodi.com
 My personal website.
