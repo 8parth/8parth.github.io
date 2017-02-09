@@ -48,14 +48,12 @@ a.back-to-top {
   color:#f0f5f6;
   background-color: grey; 
 }
-
-.button-style:focus {
-  color: #c4f6f3;
+a.btn.btn-lg.button-large:hover{
+  color:#c4f6f3;
 }
 
-
-.button-style:hover {
-  color: #c4f6f3;
+a.btn.btn-block.button-style:hover {
+  color:#c4f6f3;
 }
 
 /* add padding to body */
