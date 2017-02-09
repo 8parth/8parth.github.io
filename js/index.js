@@ -22,9 +22,9 @@ $(function() {
 
 $(window).scroll(function() {
   console.log("running");
-	if ( $(window).scrollTop() > 300 ) {
-		$('a.back-to-top').fadeIn('slow');
-	} else {
-		$('a.back-to-top').fadeOut('slow');
-	}
+  if ( $(window).scrollTop() > 300 ) {
+    $('a.back-to-top').fadeIn('slow');
+  } else {
+    $('a.back-to-top').fadeOut('slow');
+  }
 });

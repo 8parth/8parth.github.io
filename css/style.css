@@ -5,19 +5,20 @@
     float: none;
 }
 
+.invisible { display: none; }
 /* back to top styling */
 a.back-to-top {
-	display: none;
-	width: 60px;
-	height: 60px;
-	text-indent: -9999px;
-	position: fixed;
-	z-index: 999;
-	right: 20px;
-	bottom: 20px;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	border-radius: 30px;
+  display: none;
+  width: 60px;
+  height: 60px;
+  /*text-indent: -9999px;*/
+  position: fixed;
+  z-index: 999;
+  right: 5vh;
+  bottom: 5vh;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
 }
 
 /* custom font color */
@@ -102,6 +103,9 @@ p, span {
 
 .outer-block{
   margin-top: 50px;
+  color: #303030; 
+  padding-left: 10px; 
+  padding-right: 10px;
   height: 100vh;
   display: table;
   width: 100%;
