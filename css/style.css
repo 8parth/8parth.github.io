@@ -49,9 +49,13 @@ a.back-to-top {
   background-color: grey; 
 }
 
-.button-style:hover, 
 .button-style:focus {
-  font-color: #c4f6f3;
+  color: #c4f6f3;
+}
+
+
+.button-style:hover {
+  color: #c4f6f3;
 }
 
 /* add padding to body */
