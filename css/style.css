@@ -57,7 +57,7 @@ a.back-to-top {
 /* add padding to body */
 body{
   background-color: lightgray;
-  align: center;
+  text-align: center;
   font-family: 'Lato', sans-serif;
 }
 h1, h2, h4 {
@@ -99,6 +99,7 @@ p, span {
 }
 
 .outer-block{
+  margin-top: 50px;
   height: 100vh;
   display: table;
   width: 100%;
