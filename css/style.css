@@ -49,9 +49,9 @@ a.back-to-top {
   background-color: grey; 
 }
 
-.button-style > a:hover, 
-.button-style > a:focus {
-  font-color: red;
+.button-style:hover, 
+.button-style:focus {
+  font-color: #c4f6f3;
 }
 
 /* add padding to body */
