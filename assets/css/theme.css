@@ -337,7 +337,7 @@ ul.banner-social-buttons {
     letter-spacing: 1px;
   }
   .navbar-custom {
-    background-color: var(--main-bg-color);
+    background-color: #fff;
   }
   .navbar-custom a {
     color: #333;
